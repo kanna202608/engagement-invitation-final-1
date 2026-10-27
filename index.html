@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#351018" />
+  <meta name="description" content="Join us to celebrate the engagement of Rohit and Sravani." />
+  <title>Shubhamastu | Engagement Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Noto+Serif+Telugu:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=29" />
+  <script src="script.js?v=23" defer></script>
+</head>
+<body>
+  <div class="ambient-background" aria-hidden="true">
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+  </div>
+
+  <section class="intro-screen" id="introScreen">
+    <div class="intro-border"></div>
+    <div class="particles" id="particles"></div>
+    <div class="intro-content">
+      <img class="intro-ganesha" src="assets/ganesha.png" alt="Ganesha" />
+      <p class="telugu intro-mantra">॥ శ్రీ గణేశాయ నమః ॥</p>
+      <div class="mandala" aria-hidden="true">❋</div>
+      <p class="eyebrow">A NEW BEGINNING</p>
+      <h1 class="intro-title">A Celebration<br />of Love</h1>
+      <p class="intro-subtitle">Two hearts. Two families. One beautiful beginning.</p>
+      <div class="envelope" id="envelope" aria-hidden="true">
+        <div class="envelope-back"></div>
+        <div class="envelope-letter">
+          <span class="telugu letter-telugu">శుభమస్తు</span>
+          <span class="letter-divider">✦</span>
+          <span class="letter-label">YOU ARE INVITED</span>
+        </div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-front"></div>
+        <div class="envelope-seal">ॐ</div>
+      </div>
+      <button class="gold-button open-button" id="openInvitation">Open Invitation <span>✧</span></button>
+      <p class="intro-hint">A little love, wrapped in tradition</p>
+    </div>
+  </section>
+
+  <!-- Show the joined-hands artwork during the invitation transition -->
+  <div class="divine-hands-transition" id="divineHandsTransition" aria-hidden="true">
+    <div class="transition-halo"></div>
+    <div class="dh-stage" id="dhStage">
+      <div class="dh-layer dh-layer--joined">
+        <img src="assets/hands-joined.webp" alt="" decoding="async" />
+        <span class="dh-om-glow"></span>
+      </div>
+      <span class="dh-ripple"></span>
+      <span class="dh-ripple dh-ripple--late"></span>
+      <div class="dh-sparks" id="dhSparks"></div>
+    </div>
+    <span class="transition-caption">A new journey begins</span>
+  </div>
+
+  <main class="invitation" id="invitation">
+    <section class="hero section-reveal">
+      <!-- Background scene: wall, garlands, bells and banana leaves (bells swing, leaves slide in) -->
+      <div class="hero-scene" id="heroScene" aria-hidden="true">
+        <div class="scene-top"><img class="scene-base" src="assets/scene/base-top.webp" alt="" decoding="async" /><div class="scene-piece leaf leaf-r2" style="left:94.837%;top:77.948%;width:5.163%;height:34.279%"><img src="assets/scene/R2.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b1" style="left:32.201%;top:0.000%;width:5.842%;height:25.546%;--ox:48.8%;--oy:0.0%"><img src="assets/scene/b1.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b2" style="left:13.179%;top:1.092%;width:7.745%;height:48.690%;--ox:49.1%;--oy:-2.2%"><img src="assets/scene/b2.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b3" style="left:0.136%;top:36.463%;width:7.473%;height:64.629%;--ox:49.1%;--oy:1.0%"><img src="assets/scene/b3.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b4" style="left:61.549%;top:0.000%;width:5.571%;height:25.764%;--ox:46.3%;--oy:0.0%"><img src="assets/scene/b4.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b5" style="left:79.212%;top:0.437%;width:7.065%;height:48.908%;--ox:48.1%;--oy:1.8%"><img src="assets/scene/b5.webp" alt="" decoding="async" /></div><div class="scene-piece bell bell-b6" style="left:86.957%;top:25.546%;width:7.473%;height:53.712%;--ox:49.1%;--oy:1.2%"><img src="assets/scene/b6.webp" alt="" decoding="async" /></div></div>
+        <div class="scene-mid"><img class="scene-base" src="assets/scene/base-strip.webp" alt="" decoding="async" /></div>
+        <div class="scene-bottom"><img class="scene-base" src="assets/scene/base-bottom.webp" alt="" decoding="async" /><div class="scene-piece leaf leaf-l1" style="left:0.000%;top:0.310%;width:10.462%;height:49.071%"><img src="assets/scene/L1.webp" alt="" decoding="async" /></div><div class="scene-piece leaf leaf-l2" style="left:2.989%;top:36.533%;width:37.500%;height:35.294%"><img src="assets/scene/L2.webp" alt="" decoding="async" /></div><div class="scene-piece leaf leaf-r1" style="left:85.462%;top:19.195%;width:14.538%;height:34.830%"><img src="assets/scene/R1.webp" alt="" decoding="async" /></div><i class="flame" style="left:3.53%;top:29.72%;--fd:1.9s;--fl:-0.2s"></i><i class="flame" style="left:5.03%;top:30.03%;--fd:2.4s;--fl:-0.9s"></i><i class="flame" style="left:8.02%;top:29.88%;--fd:2.1s;--fl:-0.5s"></i><i class="flame" style="left:14.13%;top:29.72%;--fd:2.2s;--fl:-1.3s"></i><i class="flame" style="left:15.76%;top:30.03%;--fd:1.8s;--fl:-0.1s"></i><i class="flame" style="left:17.80%;top:29.72%;--fd:2.5s;--fl:-0.7s"></i></div>
+        <div class="scene-dust"><i style="--x:46.6%;--y:54.5%;--s:4.3px;--d:11.3s;--dl:-7.1s"></i><i style="--x:56.3%;--y:26.0%;--s:3.3px;--d:12.4s;--dl:-11.1s"></i><i style="--x:20.8%;--y:35.1%;--s:2.2px;--d:13.7s;--dl:-9.7s"></i><i style="--x:17.0%;--y:86.6%;--s:4.4px;--d:12.6s;--dl:-8.6s"></i><i style="--x:25.3%;--y:13.1%;--s:3.3px;--d:8.4s;--dl:-2.7s"></i><i style="--x:31.4%;--y:14.3%;--s:3.2px;--d:11.1s;--dl:-11.8s"></i><i style="--x:51.4%;--y:60.7%;--s:3.2px;--d:12.6s;--dl:-6.4s"></i><i style="--x:34.0%;--y:87.8%;--s:4.5px;--d:13.9s;--dl:-9.9s"></i><i style="--x:36.7%;--y:29.5%;--s:2.7px;--d:8.5s;--dl:-10.7s"></i><i style="--x:42.8%;--y:76.3%;--s:3.0px;--d:14.7s;--dl:-11.9s"></i><i style="--x:14.0%;--y:27.9%;--s:4.3px;--d:11.3s;--dl:-13.7s"></i><i style="--x:42.6%;--y:17.6%;--s:3.6px;--d:13.4s;--dl:-3.8s"></i><i style="--x:20.3%;--y:37.3%;--s:4.4px;--d:13.3s;--dl:-1.7s"></i><i style="--x:31.7%;--y:19.7%;--s:2.1px;--d:13.6s;--dl:-2.5s"></i><i style="--x:54.3%;--y:46.0%;--s:2.5px;--d:13.1s;--dl:-1.8s"></i><i style="--x:60.3%;--y:20.9%;--s:3.1px;--d:9.5s;--dl:-3.8s"></i><i style="--x:83.9%;--y:73.1%;--s:2.8px;--d:14.2s;--dl:-2.9s"></i><i style="--x:42.4%;--y:76.9%;--s:3.6px;--d:8.7s;--dl:-13.9s"></i></div>
+      </div>
+      <div class="ganesha">ॐ</div>
+      <p class="telugu hero-blessing">శుభమస్తు</p>
+      <p class="eyebrow">WITH THE BLESSINGS OF GOD AND OUR ELDERS</p>
+      <p class="hero-copy">With joyful hearts, we invite you to celebrate the beginning of a beautiful journey.</p>
+      <div class="hero-ornament"><span></span>✦<span></span></div>
+      <p class="hero-small">THE ENGAGEMENT OF</p>
+      <h2 class="couple-name">
+        <span id="heroGroom">Rohit</span>
+        <span class="name-ampersand">&amp;</span>
+        <span id="heroBride">Sravani</span>
+      </h2>
+      <p class="hero-date" id="heroDate">Sunday · 20 December 2026</p>
+
+      <a href="#celebration" class="scroll-link">Discover Our Celebration<span class="scroll-arrow">↓</span></a>
+    </section>
+
+    <section class="family-section section-reveal" id="celebration">
+      <div class="section-inner">
+        <p class="eyebrow">A PROMISE OF FOREVER</p>
+        <h2 class="section-title">Two Families,<br />One Beautiful Bond</h2>
+        <div class="family-grid">
+          <article class="family-card">
+            <div class="family-carousel" data-person="groom" aria-label="Groom details and portrait">
+              <div class="family-carousel-viewport" tabindex="0" aria-label="Groom card. Swipe left to view portrait, right to return to details.">
+                <div class="family-carousel-track">
+                  <section class="family-slide family-details-slide">
+                    <div class="family-symbol" aria-hidden="true">❦</div>
+                    <p class="family-label">THE GROOM</p>
+                    <h3 id="familyGroom">Rohit</h3>
+                    <div class="small-divider"></div>
+                    <p class="family-description">Son of</p>
+                    <p class="parents-name" id="groomParents">Sri. Ramesh &amp; Smt. Lakshmi</p>
+                  </section>
+                  <section class="family-slide family-scratch-slide" aria-hidden="true" inert>
+                    <div class="family-symbol" aria-hidden="true">❦</div>
+                    <p class="family-label">THE GROOM</p>
+                    <h3 class="scratch-card-name" id="scratchGroomName">Rohit</h3>
+                    <div class="scratch-image-wrap">
+                      <img id="scratchGroomImage" src="assets/scene/groom1.jpg" alt="Portrait of Rohit" class="scratch-portrait scratch-portrait--groom" />
+                      <canvas class="scratch-overlay" role="img" aria-label="Scratch to reveal the groom's portrait"></canvas>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="carousel-indicators" aria-hidden="true">
+                <span class="carousel-indicator is-active"></span>
+                <span class="carousel-indicator"></span>
+              </div>
+            </div>
+          </article>
+          <div class="family-connector" aria-hidden="true"><span>✧</span></div>
+          <article class="family-card">
+            <div class="family-carousel" data-person="bride" aria-label="Bride details and portrait">
+              <div class="family-carousel-viewport" tabindex="0" aria-label="Bride card. Swipe left to view portrait, right to return to details.">
+                <div class="family-carousel-track">
+                  <section class="family-slide family-details-slide">
+                    <div class="family-symbol" aria-hidden="true">❦</div>
+                    <p class="family-label">THE BRIDE</p>
+                    <h3 id="familyBride">Sravani</h3>
+                    <div class="small-divider"></div>
+                    <p class="family-description">Daughter of</p>
+                    <p class="parents-name" id="brideParents">Sri. Suresh &amp; Smt. Padma</p>
+                  </section>
+                  <section class="family-slide family-scratch-slide" aria-hidden="true" inert>
+                    <div class="family-symbol" aria-hidden="true">❦</div>
+                    <p class="family-label">THE BRIDE</p>
+                    <h3 class="scratch-card-name" id="scratchBrideName">Sravani</h3>
+                    <div class="scratch-image-wrap">
+                      <img id="scratchBrideImage" src="assets/scene/bride.avif" alt="Portrait of Sravani" class="scratch-portrait" />
+                      <canvas class="scratch-overlay" role="img" aria-label="Scratch to reveal the bride's portrait"></canvas>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="carousel-indicators" aria-hidden="true">
+                <span class="carousel-indicator is-active"></span>
+                <span class="carousel-indicator"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="family-message">With the blessings of our elders and the love of our families, we begin a wonderful new chapter. Your presence will make this occasion truly special.</p>
+      </div>
+    </section>
+
+    <section class="countdown-section section-reveal">
+      <div class="countdown-inner">
+        <p class="eyebrow">THE MOMENT WE HAVE BEEN WAITING FOR</p>
+        <h2 class="section-title light-title">Counting Down to Forever</h2>
+        <div class="countdown" aria-label="Time remaining">
+          <div class="countdown-box"><span id="days">00</span><small>DAYS</small></div>
+          <div class="countdown-box"><span id="hours">00</span><small>HOURS</small></div>
+          <div class="countdown-box"><span id="minutes">00</span><small>MINUTES</small></div>
+          <div class="countdown-box"><span id="seconds">00</span><small>SECONDS</small></div>
+        </div>
+        <p id="countdownMessage" class="countdown-message">A beautiful new beginning awaits.</p>
+      </div>
+    </section>
+
+    <section class="event-section section-reveal" id="event">
+      <div class="section-inner">
+        <p class="eyebrow">SAVE THE DATE</p><h2 class="section-title">The Auspicious Occasion</h2>
+        <div class="event-card">
+          <div class="event-icon" aria-hidden="true">🪔</div>
+          <div class="date-calendar" aria-label="Engagement date">
+            <div class="calendar-heading">
+              <span class="calendar-ornament" aria-hidden="true">✦</span>
+              <span id="calendarMonth">December</span>
+              <span id="calendarYear">2026</span>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span>
+              <span>Thu</span><span>Fri</span><span>Sat</span>
+            </div>
+            <div class="calendar-days" id="calendarDays" role="grid" aria-label="Event month"></div>
+            <p class="calendar-date-caption" id="eventDate">Sunday, 20 December 2026</p>
+          </div>
+          <div class="event-separator">✦</div>
+          <p class="event-label">MUHURTHAM</p><h3 id="eventTime">10:30 AM</h3>
+          <p class="event-note">We look forward to celebrating with you.</p>
+          <div class="event-separator">✦</div>
+          <p class="event-label">VENUE</p><h3 id="venueName">Sri Lakshmi Convention Hall</h3>
+          <p class="venue-address" id="venueAddress">Main Road, Kavali, Andhra Pradesh</p>
+          <a class="outline-button" id="mapLink" href="https://www.google.com/maps/search/?api=1&amp;query=Kavali+Andhra+Pradesh" target="_blank" rel="noopener noreferrer">View Venue on Map ↗</a>
+          <button class="gold-button calendar-button" id="calendarButton">Add to Google Calendar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="blessing-section section-reveal">
+      <div class="blessing-content">
+        <div class="blessing-lotus">❀</div><p class="telugu blessing-telugu">మంగళప్రదం</p>
+        <h2 class="blessing-title">Your Blessings Mean Everything</h2>
+        <p class="blessing-copy">As we take this beautiful step forward, we seek your love, blessings, and good wishes for a lifetime filled with happiness and togetherness.</p>
+        <p class="blessing-signature">With love and gratitude</p>
+        <h3 class="final-couple-name"><span id="finalGroom">Rohit</span><span>&amp;</span><span id="finalBride">Sravani</span></h3>
+      </div>
+    </section>
+
+    <footer class="footer section-reveal">
+      <p class="telugu footer-mantra">శుభమస్తు</p>
+      <p class="footer-copy">Made with love, tradition, and blessings.</p>
+      <div class="footer-actions"><button class="outline-button" id="shareButton">Share Invitation</button><button class="outline-button" id="printButton">Save as PDF / Print</button></div>
+      <p class="footer-credit">A new chapter begins ✦</p>
+    </footer>
+  </main>
+
+  <button class="music-button" id="musicButton" aria-label="Play background music" aria-pressed="false" title="Toggle background music"><span id="musicIcon">♫</span></button>
+  <audio id="backgroundMusic" loop preload="none"><source src="music.mp3" type="audio/mpeg" /></audio>
+</body>
+</html>
